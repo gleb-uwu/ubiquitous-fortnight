@@ -1,0 +1,20 @@
+{
+  "name": "infographic30",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio index.ts",
+    "build": "remotion render index.ts InfoGraphic30 out/video.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.528",
+    "@remotion/google-fonts": "4.0.528",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
+    "remotion": "4.0.528"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}
